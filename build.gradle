@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.google.guava:guava-jdk5:17.0'
+    compile files('libs/xpp3_min-1.1.4c.jar')
+    compile files('libs/xstream-1.4.7.jar')
+    compile files('libs/gson-2.2.4.jar')
+}
